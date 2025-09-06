@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #222;
+    max-width: 100%;
+}
+  
+h1, h2, h3 {
+    margin-bottom: 0.5rem;
+}
+  
+p {
+    margin-bottom: 1rem;
+}
+  
+header {
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+}
+
+.menu-toggle {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+nav {
+    display: none;
+    flex-direction: column;
+    background: #333;
+}
+
+nav.show {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    border-bottom: 1px solid #444;
+}
+
+nav a {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background: #444;
+}
+
+nav a.active {
+    background: #00bcd4;
+    color: #fff;
+}
+
+main {
+    padding: 1rem;
+}
+
+.about-section {
+    display: block;
+}
+
+.about, .photo {
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+#certificate {
+    margin-top: 2rem;
+}
+
+.course-filters {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.course-filters button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    background: #222;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.course-filters button:hover {
+    background: #00bcd4;
+}
+
+#courses {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.course {
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: 1rem;
+    background: #fff;
+}
+
+.course.completed {
+    background: #e0ffe0;
+    border-color: #4caf50;
+}
+
+footer {
+    text-align: center;
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer .social {
+    margin-bottom: 0.5rem;
+}
+
+footer .social a {
+    color: #fff;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+footer .social a:hover {
+    color: #00bcd4;
+}

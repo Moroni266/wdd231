@@ -1,0 +1,83 @@
+@media screen and (min-width: 768px) {
+
+    .burguer {
+      display: none;
+    }
+  
+    nav {
+      display: flex !important;
+    }
+  
+    nav ul {
+      display: flex;
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+    }
+  
+    nav li {
+      border: none;
+    }
+  
+    nav a {
+      padding: 0.5rem 1rem;
+    }
+  
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas:
+          "h1   h1"
+          "about photo"
+          "cert  cert";
+        gap: 2rem;
+    }
+    
+    h1 {
+        grid-area: h1;
+    }
+    
+    .about-section {
+        grid-area: about;
+    }
+
+    .photo-section {
+        grid-area: photo;
+        text-align: center;
+    }
+
+    .photo-section img {
+        max-width: 250px;
+        height: auto;
+        display: inline-block;
+    }
+
+    .certificates-section {
+        grid-area: cert;
+    }
+  
+    .about, .photo {
+      margin-bottom: 0;
+    }
+  
+    .photo img {
+      max-width: 250px;
+      margin: auto;
+      display: block;
+    }
+  
+    #courses {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+  
+    .course {
+      text-align: left;
+    }
+  
+    footer {
+      padding: 2rem;
+    }
+  }
+  
