@@ -3,23 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-  
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 1.6;
     background: #f9f9f9;
     color: #222;
-    max-width: 100%;
 }
-  
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
     margin-bottom: 0.5rem;
 }
-  
 p {
     margin-bottom: 1rem;
 }
-  
+
 header {
     background: #222;
     color: #fff;
@@ -43,8 +43,9 @@ header {
 .menu-toggle {
     background: none;
     border: none;
-    color: #fff;
+    color: inherit;
     font-size: 1.8rem;
+    cursor: pointer;
 }
 
 nav {
@@ -76,26 +77,22 @@ nav a {
 nav a:hover {
     background: #444;
 }
-
 nav a.active {
     background: #00bcd4;
-    color: #fff;
 }
 
 main {
     padding: 1rem;
 }
 
-.about-section {
-    display: block;
-}
-
-.about, .photo {
+.about,
+.photo,
+.course {
     border: 1px solid #ddd;
     background: #fff;
     padding: 1rem;
-    margin-bottom: 1rem;
     border-radius: 8px;
+    margin-bottom: 1rem;
 }
 
 .photo img {
@@ -135,13 +132,6 @@ main {
     gap: 0.75rem;
 }
 
-.course {
-    border: 1px solid #999;
-    border-radius: 6px;
-    padding: 1rem;
-    background: #fff;
-}
-
 .course.completed {
     background: #e0ffe0;
     border-color: #4caf50;
@@ -160,7 +150,7 @@ footer .social {
 }
 
 footer .social a {
-    color: #fff;
+    color: inherit;
     margin: 0 0.5rem;
     font-size: 1.5rem;
     transition: color 0.3s ease;
