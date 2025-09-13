@@ -1,0 +1,21 @@
+[
+    {
+        "weather": "75",
+        "description": "Party Cloudy",
+        "high": "85",
+        "low": "65",
+        "humidity": "34%",
+        "wind": "5 mph",
+        "sunrise": "6:30 AM",
+        "sunset": "7:45 PM"
+    },
+    {
+        "monday": "78",
+        "tuesday": "80",
+        "wednesday": "82",
+        "thursday": "79",
+        "friday": "77",
+        "saturday": "81",
+        "sunday": "83"
+    }
+]

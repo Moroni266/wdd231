@@ -1,0 +1,34 @@
+@media screen and (min-width: 768px) {
+    .burguer {
+        display: none;
+    }
+
+    .links {
+        display: flex;
+    }
+
+    nav {
+        display: flex !important;
+        margin-right: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    nav li {
+        border: none;
+    }
+    nav a {
+        padding: 0.5rem 1rem;
+    }
+
+    #dark-mode-toggle {
+        width: 40px;
+    }
+
+    footer {
+        padding: 2rem;
+    }
+}
