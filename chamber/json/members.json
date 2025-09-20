@@ -1,24 +1,26 @@
 [
     {
-      "name": "Hotel Xalapa Suites",
-      "address": "Calle Juárez 456, Xalapa, Ver.",
-      "phone": "228-845-6789",
-      "website": "https://hotelxalapa.com",
-      "image": "images/company1.webp"
+        "name": "Hotel Xalapa Suites",
+        "address": "Juárez Stret 456, Xalapa, Ver.",
+        "phone": "228-845-6789",
+        "website": "https://hotelxalapa.com",
+        "image": "images/company1.webp",
+        "susbcription": "Gold"
     },
     {
-      "name": "Restaurante La Parroquia",
-      "address": "Centro Histórico, Xalapa, Ver.",
-      "phone": "228-800-1122",
-      "website": "https://laparroquiaxalapa.com",
-      "image": "images/company2.webp"
+        "name": "Restaurant La Parroquia",
+        "address": "Historic Center, Xalapa, Ver.",
+        "phone": "228-800-1122",
+        "website": "https://laparroquiaxalapa.com",
+        "image": "images/company2.webp",
+        "susbcription": "Silver"
     },
     {
-      "name": "Universidad de Xalapa",
-      "address": "Carretera Veracruz-Xalapa Km 2.5",
-      "phone": "228-900-2211",
-      "website": "https://ux.edu.mx",
-      "image": "images/company3.webp"
+        "name": "Xalapa University",
+        "address": "Road Veracruz-Xalapa Km 2.5",
+        "phone": "228-900-2211",
+        "website": "https://ux.edu.mx",
+        "image": "images/company3.webp",
+        "susbcription": "Silver"
     }
-  ]
-  
+]
