@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Comerce chamber of Xalapa</title>
+        <title>Comerce chamber of Xalapa - Thank You</title>
         <meta
             name="description"
             content="Directory of the comerce chamber of Xalapa-Enríquez, Veracruz, México."
@@ -35,11 +35,13 @@
         />
         <link rel="stylesheet" href="styles/directory.css" />
         <link rel="stylesheet" href="styles/directory-large.css" />
+        <link rel="stylesheet" href="styles/thankyou.css" />
         <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
         <script src="scripts/directory.js" defer></script>
         <script src="scripts/partners.js" defer></script>
         <script src="scripts/weather.js" defer></script>
         <script src="scripts/footer.js" defer></script>
+        <script src="scripts/thankyou.js" defer></script>
     </head>
     <body>
         <header>
@@ -61,62 +63,42 @@
             </div>
         </header>
 
-        <section class="hero">
-            <img src="images/xalapa-banner.webp" alt="Xalapa panorama" />
-            <button class="cta"><a href="join.html">Join !!!</a></button>
-        </section>
-
         <main>
-            <h1>Home</h1>
-            <div class="info-grid">
-                <section class="events">
-                    <h3>Events</h3>
-                    <ul id="events-list"></ul>
-                </section>
-
-                <section class="weather">
-                    <h3>Current Weather</h3>
-                    <ul id="weather-details"></ul>
-                </section>
-
-                <section class="Weather-forecast">
-                    <h3>3-Day Forecast</h3>
-                    <ul id="forecast-details"></ul>
-                </section>
-            </div>
-
-            <section class="spotlights" id="partners-busines"></section>
+            <h1>Thank You for Joining!</h1>
+            <p>We’ve received your application. Here’s what you submitted:</p>
+            <ul id="submission-details"></ul>
         </main>
+
+        <footer>
+            <div>
+                <p><span>Comerce Chamber of Xalapa-Enríquez</span></p>
+                <p>Av. 20 de Noviembre #123, Xalapa, Ver.</p>
+                <p>Xalapa-Enríquez, Maill 999</p>
+                <p>info@xalapacc.org</p>
+                <p>+52 (228) 123 4567</p>
+            </div>
+            <div class="social">
+                <a href="https://github.com/moroni266" target="_blank"
+                    ><img src="images/github-logo.webp" alt="github"
+                /></a>
+                <a
+                    href="https://www.linkedin.com/in/fco-moroni-lopez//"
+                    target="_blank"
+                    ><img src="images/linkedin-logo.webp" alt="linkedin"
+                /></a>
+                <a href="https://x.com/" target="_blank"
+                    ><img src="images/x-logo.webp" alt="x"
+                /></a>
+            </div>
+            <div class="development-info">
+                <p>WDD231 Class Project</p>
+                <p>Moroni Lopez</p>
+                <p>
+                    &copy; <span id="year"></span> Comerce Chamber of
+                    Xalapa-Enríquez
+                </p>
+                <p id="lastModified"></p>
+            </div>
+        </footer>
     </body>
-    <footer>
-        <div>
-            <p><span>Comerce Chamber of Xalapa-Enríquez</span></p>
-            <p>Av. 20 de Noviembre #123, Xalapa, Ver.</p>
-            <p>Xalapa-Enríquez, Maill 999</p>
-            <p>info@xalapacc.org</p>
-            <p>+52 (228) 123 4567</p>
-        </div>
-        <div class="social">
-            <a href="https://github.com/moroni266" target="_blank"
-                ><img src="images/github-logo.webp" alt="github"
-            /></a>
-            <a
-                href="https://www.linkedin.com/in/fco-moroni-lopez//"
-                target="_blank"
-                ><img src="images/linkedin-logo.webp" alt="linkedin"
-            /></a>
-            <a href="https://x.com/" target="_blank"
-                ><img src="images/x-logo.webp" alt="x"
-            /></a>
-        </div>
-        <div class="development-info">
-            <p>WDD231 Class Project</p>
-            <p>Moroni Lopez</p>
-            <p>
-                &copy; <span id="year"></span> Comerce Chamber of
-                Xalapa-Enríquez
-            </p>
-            <p id="lastModified"></p>
-        </div>
-    </footer>
 </html>
