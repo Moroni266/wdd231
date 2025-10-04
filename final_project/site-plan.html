@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Marathon Site Plan</title>
+        <meta
+            name="description"
+            content="This website is was created for Moroni Lopez, and contains information about the fictitious ."
+        />
+        <meta name="author" content="Moroni Lopez" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles/siteplan.css" />
+        <style>
+            :root {
+                --primary-color: #4caf50;
+                --secondary-color: #ff9800;
+                --background-color: #f9f9f9;
+                --text-color: #333;
+            }
+
+            body {
+                font-family: "Roboto", sans-serif;
+                background-color: var(--background-color);
+                color: var(--text-color);
+                line-height: 1.6;
+                padding: 20px;
+            }
+
+            h1,
+            h2,
+            h3 {
+                color: var(--primary-color);
+            }
+
+            h1 {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+            h2 {
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+
+            h3 {
+                margin-top: 20px;
+                margin-bottom: 5px;
+            }
+
+            p,
+            li {
+                margin-bottom: 10px;
+            }
+
+            ul {
+                margin-left: 20px;
+            }
+
+            .wireframe {
+                border: 2px dashed var(--secondary-color);
+                padding: 20px;
+                margin: 10px 0;
+                text-align: center;
+                background-color: #fff;
+            }
+
+            .wireframe img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            .color-swatch {
+                display: inline-block;
+                width: 100px;
+                height: 30px;
+                margin-right: 10px;
+                border: 1px solid #ccc;
+                vertical-align: middle;
+            }
+        </style>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <h1>Daycare Connect - Site Plan</h1>
+
+        <section>
+            <h2>Site Name</h2>
+            <p><strong>Daycare Connect</strong></p>
+            <p>
+                This name was selected because it represents a platform where
+                parents can stay connected with their children's daycare,
+                monitor activities, meals, and staff knowledge, ensuring trust
+                and transparency.
+            </p>
+            <p><em>Optional domain availability:</em> daycareconnect.com</p>
+        </section>
+
+        <section>
+            <h2>Site Purpose</h2>
+            <p>
+                The website provides parents with a comprehensive overview of
+                multiple daycare locations. Parents can:
+            </p>
+            <ul>
+                <li>Check daily meals and nutrition information.</li>
+                <li>Review employee qualifications and skills.</li>
+                <li>Locate daycare centers and access contact information.</li>
+                <li>
+                    Receive updates on children’s daily activities and
+                    development.
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Scenarios</h2>
+            <ul>
+                <li>
+                    <strong>Scenario 1:</strong> "Which daycare location has
+                    certified teachers with experience in early childhood
+                    education?"
+                </li>
+                <li>
+                    <strong>Scenario 2:</strong> "What meals are being served
+                    this week, and do they meet my child's dietary needs?"
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Color Schema</h2>
+            <p>The following colors will be used across the website:</p>
+            <ul>
+                <li>
+                    <strong>Primary Color:</strong> Green
+                    <span
+                        class="color-swatch"
+                        style="background-color: #4caf50"
+                    ></span>
+                    (used for headings, logo accents, and buttons)
+                </li>
+                <li>
+                    <strong>Secondary Color:</strong> Orange
+                    <span
+                        class="color-swatch"
+                        style="background-color: #ff9800"
+                    ></span>
+                    (used for highlights, links, and call-to-action buttons)
+                </li>
+                <li>
+                    <strong>Background Color:</strong> Light gray
+                    <span
+                        class="color-swatch"
+                        style="background-color: #f9f9f9"
+                    ></span>
+                    (used for page background)
+                </li>
+                <li>
+                    <strong>Text Color:</strong> Dark gray
+                    <span
+                        class="color-swatch"
+                        style="background-color: #333"
+                    ></span>
+                    (used for body text)
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Typography</h2>
+            <ul>
+                <li>
+                    <strong>Roboto:</strong> Primary font for headings and body
+                    text.
+                </li>
+                <li>
+                    Font Weights: Regular 400 for body text, Bold 700 for
+                    headings.
+                </li>
+                <li>
+                    Optional special font for accents or logo can be added if
+                    desired.
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Wireframe</h2>
+            <p>
+                Below is a representation of the homepage layout for both
+                desktop and mobile views:
+            </p>
+
+            <h3>Desktop View</h3>
+            <div class="wireframe">
+                <p>[Header with logo and navigation]</p>
+                <p>[Hero section with welcome message and key features]</p>
+                <p>[Sections: Meals, Staff Info, Locations, Updates]</p>
+                <p>[Footer with contact info and social media links]</p>
+            </div>
+
+            <h3>Mobile View</h3>
+            <div class="wireframe">
+                <p>[Collapsed navigation menu]</p>
+                <p>[Hero section stacked vertically]</p>
+                <p>[Sections stacked: Meals, Staff Info, Locations, Updates]</p>
+                <p>[Footer]</p>
+            </div>
+        </section>
+    </body>
+</html>

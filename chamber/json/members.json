@@ -1,11 +1,11 @@
 [
     {
         "name": "Hotel Xalapa Suites",
-        "address": "Juárez Stret 456, Xalapa, Ver.",
+        "address": "Juárez Street 456, Xalapa, Ver.",
         "phone": "228-845-6789",
         "website": "https://hotelxalapa.com",
         "image": "images/company1.webp",
-        "susbcription": "Gold"
+        "subscription": "Gold"
     },
     {
         "name": "Restaurant La Parroquia",
@@ -13,7 +13,7 @@
         "phone": "228-800-1122",
         "website": "https://laparroquiaxalapa.com",
         "image": "images/company2.webp",
-        "susbcription": "Silver"
+        "subscription": "Silver"
     },
     {
         "name": "Xalapa University",
@@ -21,6 +21,46 @@
         "phone": "228-900-2211",
         "website": "https://ux.edu.mx",
         "image": "images/company3.webp",
-        "susbcription": "Silver"
+        "subscription": "Silver"
+    },
+    {
+        "name": "Jardín Botánico Francisco Javier Clavijero",
+        "address": "Km 1.5 Antigua carretera a Coatepec, Xalapa, Ver.",
+        "phone": "228-816-0000",
+        "website": "https://jardinbotanico.xalapa.mx",
+        "image": "images/company4.webp",
+        "subscription": "Gold"
+    },
+    {
+        "name": "Museo de Antropología de Xalapa",
+        "address": "Cerro de Macuiltépetl s/n, Xalapa, Ver.",
+        "phone": "228-817-0000",
+        "website": "https://mexico.inah.gob.mx/xalapa",
+        "image": "images/company5.webp",
+        "subscription": "Gold"
+    },
+    {
+        "name": "Café de la Parroquia",
+        "address": "Av. Enríquez 112, Xalapa, Ver.",
+        "phone": "228-845-3344",
+        "website": "https://cafedelaparroquia.com",
+        "image": "images/company6.webp",
+        "subscription": "Silver"
+    },
+    {
+        "name": "Parque Los Tecajetes",
+        "address": "Calle Los Tecajetes s/n, Xalapa, Ver.",
+        "phone": "228-812-2222",
+        "website": "https://www.xalapa.gob.mx/parques",
+        "image": "images/company7.webp",
+        "subscription": "Bronze"
+    },
+    {
+        "name": "Teatro del Estado Ignacio de la Llave",
+        "address": "Calle Enríquez 330, Xalapa, Ver.",
+        "phone": "228-841-5555",
+        "website": "https://teatrodelestado.veracruz.gob.mx",
+        "image": "images/company8.webp",
+        "subscription": "Gold"
     }
 ]
