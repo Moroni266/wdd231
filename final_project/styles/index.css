@@ -12,7 +12,7 @@ html {
 body {
     background-color: #1a1718;
     color: #ffffff;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 1.6;
 }
 
@@ -57,7 +57,7 @@ nav li {
 nav a {
     color: #39ff14;
     text-decoration: none;
-    font-family: 'Orbitron', sans-serif;
+    font-family: "Orbitron", sans-serif;
 }
 
 nav a:hover {
@@ -70,7 +70,9 @@ nav a.active {
 }
 /* Main Layout */
 
-.main-content, footer, aside {
+.main-content,
+footer,
+aside {
     text-align: center;
     padding: 1rem;
 }
