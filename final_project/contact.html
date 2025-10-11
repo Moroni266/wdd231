@@ -3,12 +3,12 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Daycare Connect</title>
+        <title>Daycare Connect | Locations</title>
         <meta
             name="description"
             content="A daycare page dedicated to represent the Daycare Connect enterprese to let the parents know more about us, how we work and what services we provide."/>
         <meta name="author" content="Moroni Lopez"/>
-        <meta property="og:title" content="Daycare Connect"/>
+        <meta property="og:title" content="Daycare Connect | Locations"/>
         <meta
             property="og:description"
             content="A daycare page dedicated to represent the Daycare Connect enterprese to let the parents know more about us, how we work and what services we provide."/>
@@ -20,8 +20,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="styles/index.css"/>
         <link rel="stylesheet" href="styles/index-large.css"/>
+        <link rel="stylesheet" href="styles/contact.css">
         <script loading="lazy" src="scripts/getdates.js" defer></script>
         <script loading="lazy" src="scripts/index.js" defer></script>
+        <script loading="lazy" src="scripts/locations.js" defer></script>
     </head>
     <body>
         <header>
@@ -29,26 +31,32 @@
             <button id="menu-toggle" aria-label="Toggle menu">☰</button>
             <nav id="main-nav" class="hidden">
                 <ul>
-                    <li><a class="active" href="index.html">Index</a></li>
+                    <li><a href="index.html">Index</a></li>
                     <li><a href="locations.html">Locations</a></li>
-                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a class="active" href="contact.html">Contact us</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
-            <section class="hero">
-                <img src="images/hero.webp" alt="daycare center">
+            <section class="contact-form">
+                <h1>Contact Us</h1>
+                <form method="get" action="thankyou.html">
+                  <label for="fname">Full Name:</label>
+                  <input type="text" id="fname" name="fname" required />
+          
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required />
+          
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" rows="5" required></textarea>
+          
+                  <button type="submit">Send Message</button>
+                </form>
             </section>
-
-            <section id="history" class="main-content">
-                <h1>Daycare Connect</h1>
+            <section>
                 <p>
-                    Daycare Connect is a daycare center dedicated to providing a safe,
-                    nurturing, and educational environment for children aged 6 months to
-                    5 years. Our mission is to support the growth and development of each
-                    child while offering peace of mind to parents through quality care
-                    and engaging activities.
+                    If you have any questions, concerns, or would like to schedule a tour of our facilities, please don't hesitate to reach out to us. We're here to help and look forward to hearing from you!
                 </p>
             </section>
         </main>

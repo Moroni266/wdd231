@@ -1,0 +1,168 @@
+[
+    {
+    "id": 1,
+    "name": "Happy Kids Learning Center",
+    "address": "123 Maple Street, Springfield, IL",
+    "phone": "(217) 555-0123",
+    "rating": 4.8,
+    "hours": "7:00 AM - 6:00 PM",
+    "capacity": 45,
+    "currentCapacity": 40,
+    "description": "A warm, nurturing environment focused on early childhood development through play and creativity."
+    },
+    {
+    "id": 2,
+    "name": "Little Explorers Daycare",
+    "address": "456 Oak Avenue, Springfield, IL",
+    "phone": "(217) 555-0456",
+    "rating": 4.6,
+    "hours": "6:30 AM - 5:30 PM",
+    "capacity": 30,
+    "currentCapacity": 20,
+    "description": "Encourages hands-on learning with daily outdoor activities and structured playtime."
+    },
+    {
+    "id": 3,
+    "name": "Bright Futures Preschool",
+    "address": "789 Pine Road, Springfield, IL",
+    "phone": "(217) 555-0789",
+    "rating": 4.9,
+    "hours": "7:00 AM - 6:30 PM",
+    "capacity": 60,
+    "currentCapacity": 55,
+    "description": "Certified teachers provide early education with a focus on literacy and social-emotional skills."
+    },
+    {
+    "id": 4,
+    "name": "Sunshine Academy",
+    "address": "321 Birch Lane, Springfield, IL",
+    "phone": "(217) 555-0111",
+    "rating": 4.7,
+    "hours": "6:00 AM - 6:00 PM",
+    "capacity": 50,
+    "currentCapacity": 40,
+    "description": "Combines structured learning with outdoor play to help kids grow healthy and confident."
+    },
+    {
+    "id": 5,
+    "name": "Tiny Steps Childcare",
+    "address": "654 Elm Street, Springfield, IL",
+    "phone": "(217) 555-0222",
+    "rating": 4.5,
+    "hours": "7:30 AM - 5:30 PM",
+    "capacity": 25,
+    "currentCapacity": 10,
+    "description": "Small-group setting ideal for infants and toddlers, with a strong focus on safety and comfort."
+    },
+    {
+    "id": 6,
+    "name": "Creative Minds Learning Hub",
+    "address": "987 Cedar Avenue, Springfield, IL",
+    "phone": "(217) 555-0333",
+    "rating": 4.9,
+    "hours": "6:45 AM - 6:15 PM",
+    "capacity": 40,
+    "currentCapacity": 35,
+    "description": "STEM-focused curriculum encouraging imagination and problem-solving through play."
+    },
+    {
+    "id": 7,
+    "name": "Little Sprouts Academy",
+    "address": "222 Walnut Drive, Springfield, IL",
+    "phone": "(217) 555-0444",
+    "rating": 4.4,
+    "hours": "7:00 AM - 6:00 PM",
+    "capacity": 35,
+    "currentCapacity": 25,
+    "description": "Safe, clean, and loving environment with a strong emphasis on early literacy."
+    },
+    {
+    "id": 8,
+    "name": "KinderSteps Preschool",
+    "address": "555 Maplewood Blvd, Springfield, IL",
+    "phone": "(217) 555-0555",
+    "rating": 4.6,
+    "hours": "6:30 AM - 6:00 PM",
+    "capacity": 40,
+    "currentCapacity": 39,
+    "description": "Focuses on cognitive and motor development through guided play and structured lessons."
+    },
+    {
+    "id": 9,
+    "name": "Growing Minds Daycare",
+    "address": "111 Cherry Lane, Springfield, IL",
+    "phone": "(217) 555-0666",
+    "rating": 4.3,
+    "hours": "7:00 AM - 5:30 PM",
+    "capacity": 30,
+    "currentCapacity": 15,
+    "description": "Encourages creativity, confidence, and social skills with themed weekly activities."
+    },
+    {
+    "id": 10,
+    "name": "Little Sunshine Playhouse",
+    "address": "789 Willow Street, Springfield, IL",
+    "phone": "(217) 555-0777",
+    "rating": 4.8,
+    "hours": "6:00 AM - 6:30 PM",
+    "capacity": 55,
+    "currentCapacity": 40,
+    "description": "Offers a nurturing space where children explore and learn at their own pace."
+    },
+    {
+    "id": 11,
+    "name": "Smart Start Kids Center",
+    "address": "333 Aspen Court, Springfield, IL",
+    "phone": "(217) 555-0888",
+    "rating": 4.7,
+    "hours": "7:00 AM - 6:00 PM",
+    "capacity": 48,
+    "currentCapacity": 40,
+    "description": "Licensed teachers promote curiosity and creativity through hands-on activities."
+    },
+    {
+    "id": 12,
+    "name": "Bright Minds Early Learning",
+    "address": "654 Magnolia Blvd, Springfield, IL",
+    "phone": "(217) 555-0999",
+    "rating": 4.5,
+    "hours": "6:30 AM - 5:30 PM",
+    "capacity": 36,
+    "currentCapacity": 30,
+    "description": "Blends Montessori-style education with modern play-based learning."
+    },
+    {
+    "id": 13,
+    "name": "Little Learners Hub",
+    "address": "444 Poplar Street, Springfield, IL",
+    "phone": "(217) 555-1001",
+    "rating": 4.4,
+    "hours": "7:15 AM - 6:15 PM",
+    "capacity": 32,
+    "currentCapacity": 20,
+    "description": "Focuses on early childhood education through storytelling and interactive activities."
+    },
+    {
+    "id": 14,
+    "name": "Tender Care Daycare",
+    "address": "222 Ivy Road, Springfield, IL",
+    "phone": "(217) 555-1002",
+    "rating": 4.6,
+    "hours": "7:00 AM - 6:00 PM",
+    "capacity": 28,
+    "currentCapacity": 18,
+    "description": "A cozy environment with experienced caregivers ensuring every child feels safe and valued."
+    },
+    {
+    "id": 15,
+    "name": "Adventure Kids Learning Place",
+    "address": "101 Pinecone Drive, Springfield, IL",
+    "phone": "(217) 555-1003",
+    "rating": 4.9,
+    "hours": "6:30 AM - 6:00 PM",
+    "capacity": 50,
+    "currentCapacity": 40,
+    "description": "Adventure-based learning through storytelling, art, and outdoor exploration."
+    }
+]
+  

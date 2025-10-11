@@ -1,4 +1,4 @@
-const year = document.querySelector("#currentyear");
+const year = document.querySelector("#year");
 const modified = document.querySelector("#lastModified");
 const today = new Date();
 const oLastModif = new Date(document.lastModified);
